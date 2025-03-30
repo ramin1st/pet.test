@@ -3,7 +3,7 @@ document.getElementById('loginForm')?.addEventListener('submit', event => {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === "admin" && password === "1234") {
+    if (username === "ramin" && password === "mina12") {
         alert("به پت این خوش آمدید!");
         window.location.href = "dashboard.html";
     } else {
